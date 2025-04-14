@@ -1,0 +1,17 @@
+div {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+}
+div#film-list {
+  background-color: rgb(233, 174, 174);
+}
+div#popup {
+  background-color: rgb(174, 233, 174);
+  padding: 10px;
+  min-width: 400px;
+}
+
+section {
+  display: inline-flex;
+}/*# sourceMappingURL=style.css.map */
