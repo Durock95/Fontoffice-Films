@@ -107,7 +107,7 @@ function getGenres() {
     }).then(data => {
         afficherGenres(data)
     }).catch(e => {
-        console.log("Erreur", e)
+        console.log("Erreur", e);
     })
 }
 
