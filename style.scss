@@ -12,6 +12,13 @@ div {
         min-width: 400px;
     }
 }
+li {
+    &#summary{
+        width: 400px;
+        height: 400px;
+        color: antiquewhite;
+    }
+}
 
 section{
     display: inline-flex

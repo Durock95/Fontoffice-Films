@@ -12,6 +12,24 @@ div#popup {
   min-width: 400px;
 }
 
+#formular.hidden {
+  display: none;
+}
+
+#formular.active {
+  display: block;
+}
+
+#btn {
+  display: inline-block;
+  background-color: rgb(233, 174, 174);
+}
+
 section {
   display: inline-flex;
 }/*# sourceMappingURL=style.css.map */
+
+#summary {
+  width: 400px;
+  height: 400px;
+}
