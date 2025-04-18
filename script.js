@@ -87,7 +87,7 @@ function afficherGenres(data) {
         document.getElementById("genre2").appendChild(li);
     });
 }
-
+//blabla
 function getFilms(genre) {
     document.getElementById("films").innerHTML = "";
     fetch(`${url}/api/films/filtre/${genre}`).then(response => {
