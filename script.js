@@ -1,4 +1,4 @@
-const url = 'http://localhost:5001'
+const url = `http://localhost:5001`
 window.onload = () => {
     getGenres();
     getFilms("Action")
@@ -110,6 +110,7 @@ function getGenres() {
         console.log("Erreur", e);
     })
 }
+// blablablabla
 
 function getFilm(id) {
     fetch(`${url}/api/films/${id}`).then(response => {
